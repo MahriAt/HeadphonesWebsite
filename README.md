@@ -1,3 +1,46 @@
+# Project Name
+
+##  Setup
+Projeyi çalıştırmak için:
+```bash
+npm install
+npm run dev
+```
+
+##  Kullanılan Teknolojiler
+React (Vite)
+JavaScript (ES6+)
+SCSS
+Netlify (deploy)
+
+##  Özellikler
+Responsive (mobil, tablet, desktop uyumlu)
+Ürün kartları
+SSS (FAQ) bölümü
+İletişim formu (email doğrulama ile)
+Tema değişimi (dark/light)
+Dinamik bileşen yapısı
+
+##  Performans
+Lighthouse:
+Mobile: 90
+Desktop: 97
+
+Yapılan optimizasyonlar:
+Görseller WebP formatına dönüştürüldü
+Lazy loading uygulandı
+Font yükleme optimize edildi
+Hero image preload edildi
+
+##  Structure
+public/
+src/
+    assets/
+    styles/
+
+##  Notes
+Explain design decisions
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

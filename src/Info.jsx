@@ -1,6 +1,6 @@
 import product2 from './assets/product2.webp'
 import product3 from './assets/product3.webp'
-import './Info.scss'
+import './styles/Info.scss'
 
 function Info(){
     return <>

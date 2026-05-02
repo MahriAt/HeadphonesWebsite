@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Iletisim.scss'
+import './styles/Iletisim.scss'
 
 function ContactSection() {
   const [email, setEmail] = useState("");

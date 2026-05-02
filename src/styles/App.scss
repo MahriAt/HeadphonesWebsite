@@ -2,7 +2,7 @@
 
 .hero {
   height: 100vh;
-  background: url('assets/product.webp') center/cover no-repeat;
+  background: url('../assets/product.webp') center/cover no-repeat;
   position: relative;
   color: black;
 
@@ -62,31 +62,3 @@
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  .card {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card__image {
-    width: 100%;
-    height: auto;
-  }
-  .contact {
-    flex-direction: column;
-    text-align: center;
-  }
-  .contact__form {
-    width: 100%;
-  }
-
-  .container1, .container2 {
-    flex-direction: column !important;
-    text-align: center;
-  }
-  .container1{
-    img{
-        width: 80%;
-    }
-  }
-}
