@@ -1,4 +1,5 @@
 import Button from "./Button";
+import './Card.scss'
 
 function Card({ image, title, description, price, specs }) {
   return (

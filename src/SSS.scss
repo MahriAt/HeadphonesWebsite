@@ -1,0 +1,31 @@
+.SSS {
+  width: 80%;
+  margin: 50px auto;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.SSS__item {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 15px 0;
+
+  .SSS__question {
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  .SSS__answer {
+    text-align: right;
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+}

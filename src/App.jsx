@@ -7,6 +7,7 @@ import Info from './Info'
 import Card from './Card'
 import SSS from './SSS'
 import Iletisim from './Iletisim'
+import { lazy, Suspense } from "react";
 
 function App() {
   const scrollToSection = () => {
@@ -14,6 +15,7 @@ function App() {
       behavior: 'smooth'
     });
   };
+  const SSS = lazy(() => import("./SSS"));
   return (
     <>
       <section id="center">
@@ -43,7 +45,9 @@ function App() {
               ]}
             />
           </div>
-          <SSS />
+          <Suspense fallback={<div>Loading...</div>}>
+            <SSS />
+          </Suspense>
           <Iletisim />
           
         </div>

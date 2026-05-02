@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './SSS.scss'
 
 function SSS() {
   const [openIndex, setOpenIndex] = useState(null);
