@@ -33,14 +33,3 @@
     }
 }
 
-@media (max-width: 768px) {
-  .container1, .container2 {
-    flex-direction: column !important;
-    text-align: center;
-  }
-  .container1{
-    img{
-        width: 80%;
-    }
-  }
-}

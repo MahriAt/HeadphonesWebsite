@@ -7,6 +7,7 @@ import Info from './Info'
 import Card from './Card'
 import SSS from './SSS'
 import Iletisim from './Iletisim'
+import './Mobile.scss'
 import { lazy, Suspense } from "react";
 
 function App() {
@@ -50,7 +51,6 @@ function App() {
             <SSS /> 
           </Suspense>
           <Iletisim />
-          
         </div>
       </section>
     </>
