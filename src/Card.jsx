@@ -3,7 +3,7 @@ import Button from "./Button";
 function Card({ image, title, description, price, specs }) {
   return (
     <div className="card">
-      <img src={image} alt={title} className="card__image" />
+      <img src={image} alt={title} className="card__image" loading="lazy" />
 
       <div className="card__content">
         <h3>{title}</h3>

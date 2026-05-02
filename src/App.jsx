@@ -1,6 +1,5 @@
 import heroImg from './assets/hero.png'
-import product from './assets/product.jpg'
-import product2 from './assets/product2.jpg'
+import product from './assets/product.webp'
 import './App.scss'
 import Button from './Button'
 import Themes from './Themes'
@@ -49,8 +48,6 @@ function App() {
           
         </div>
       </section>
-
-      
     </>
   )
 }

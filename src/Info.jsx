@@ -1,12 +1,12 @@
-import product2 from './assets/product2.jpg'
-import product3 from './assets/product3.jpg'
+import product2 from './assets/product2.webp'
+import product3 from './assets/product3.webp'
 import './Info.scss'
 
 function Info(){
     return <>
         <div className='info'>
             <div className='container1'>
-                <img src={product2} alt="product2" />
+                <img src={product2} alt="product2" loading="lazy" />
                 <div className='text'>
                     <h2>BERIBES'ten en iyi şekilde yararlanmanızı sağlayacak en iyi müzikleri kullanın!</h2>
                     <p>BERIBES Bluetooth kulaklıklar, her ses seviyesinde derin, güçlü ve etkileyici bir 
@@ -16,7 +16,7 @@ function Info(){
                 </div>
             </div>
             <div className='container2'>
-                <img src={product3} alt="product3" />
+                <img src={product3} alt="product3" loading="lazy"/>
                 <div className='text'>
                     <h2>Yüksek Kaliteli Kulaklık</h2>
                     <p>BERIBES 6EQ Kulaklıklar, ürünlerimizin daha uzun ömürlü, daha şık görünümlü, 

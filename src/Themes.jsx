@@ -1,5 +1,5 @@
-import dark from './assets/moon.png'
-import bright from './assets/sun.png'
+import dark from './assets/moon.webp'
+import bright from './assets/sun.webp'
 import Button from './Button'
 import { useState, useEffect } from 'react';
 
