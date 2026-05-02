@@ -16,6 +16,7 @@ function App() {
     });
   };
   const SSS = lazy(() => import("./SSS"));
+  const Iletisim = lazy(() => import("./Iletisim"));
   return (
     <>
       <section id="center">
@@ -47,8 +48,9 @@ function App() {
           </div>
           <Suspense fallback={<div>Loading...</div>}>
             <SSS />
+            <Iletisim />
           </Suspense>
-          <Iletisim />
+          
           
         </div>
       </section>
