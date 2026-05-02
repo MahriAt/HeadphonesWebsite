@@ -1,13 +1,13 @@
 import heroImg from './assets/hero.png'
 import product from './assets/product.webp'
-import './App.scss'
+import './styles/App.scss'
 import Button from './Button'
 import Themes from './Themes'
 import Info from './Info'
 import Card from './Card'
 import SSS from './SSS'
 import Iletisim from './Iletisim'
-import './Mobile.scss'
+import './styles/Mobile.scss'
 import { lazy, Suspense } from "react";
 
 function App() {
