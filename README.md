@@ -38,8 +38,19 @@ src/
     assets/
     styles/
 
-##  Notes
-Explain design decisions
+##  Notlar
+Bu projede örnek ürün olarak kulaklık seçilmiştir.
+
+Web sitesi aşağıdaki bölümlerden oluşmaktadır:
+    Hero (ana tanıtım) bölümü
+    Ürün hakkında bilgi alanı
+    Ürün kartı (görsel, açıklama ve fiyat)
+    SSS (Sıkça Sorulan Sorular) bölümü
+    İletişim formu
+
+Proje, modern frontend geliştirme prensiplerine uygun olarak bileşen tabanlı şekilde geliştirilmiştir.
+
+İlerleyen aşamalarda, ürün kartı üzerinde bulunan butonlara "satın al" (buy) işlevselliği eklenerek projenin e-ticaret yönünde genişletilmesi planlanmaktadır.
 
 # React + Vite
 
